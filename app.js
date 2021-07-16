@@ -29,8 +29,8 @@ const fetchData = async (id) => {
             especial: data.stats[3].base_stat
         };
 
-
         pintarCard(pokemon)
+        
     } catch (error) {
         console.log(error)
     }
